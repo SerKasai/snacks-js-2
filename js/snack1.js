@@ -96,23 +96,23 @@ console.log(benzina, diesel, altreAuto)
 
 // ALTERNATIVA CON FOR EACH
 
-let autoBenzina = [], autoDiesl = [], tutteLeAltre = [];
+// let autoBenzina = [], autoDiesl = [], tutteLeAltre = [];
 
-auto.forEach((el) => {
-  const { alimentazione } = el;
+// auto.forEach((el) => {
+//   const { alimentazione } = el;
 
-  switch (alimentazione) {
-    case 'Benzina':
-      autoBenzina.push(el);
-      break;
-    case 'Diesel':
-      autoDiesl.push(el);
-      break;
-    default:
-      tutteLeAltre.push(el)
-  }
-})
+//   switch (alimentazione) {
+//     case 'Benzina':
+//       autoBenzina.push(el);
+//       break;
+//     case 'Diesel':
+//       autoDiesl.push(el);
+//       break;
+//     default:
+//       tutteLeAltre.push(el)
+//   }
+// })
 
-console.log(autoBenzina);
-console.log(autoDiesl);
-console.log(tutteLeAltre);
+// console.log(autoBenzina);
+// console.log(autoDiesl);
+// console.log(tutteLeAltre);
