@@ -54,12 +54,12 @@ const auto = [
 ]
 console.log(auto)
 
-const benzina = auto.filter((autobenza) => {
-  return autobenza.alimentazione == 'Benzina';
+const benzina = auto.filter((autoBenza) => {
+  return autoBenza.alimentazione == 'Benzina';
 });
 
-const diesel = auto.filter((autodiesel) => {
-  return autodiesel.alimentazione == 'Diesel';
+const diesel = auto.filter((autoDiesel) => {
+  return autoDiesel.alimentazione == 'Diesel';
 });
 
 const altreAuto = auto.filter((altre) => {
@@ -70,3 +70,25 @@ const altreAuto = auto.filter((altre) => {
 })
   ;
 console.log(benzina, diesel, altreAuto)
+
+
+// ALTERNATIVA
+
+// let autoBenzina, autoDiesl, tutteLeAltre;
+
+// autoBenzina = auto.filter(el => el.alimentazione === 'Benzina');
+// autoDiesl = auto.filter(el => el.alimentazione === 'Diesel');
+// tutteLeAltre = auto.filter(el => el.alimentazione !== 'Benzina' && el.alimentazione !== 'Diesel');
+
+// // OPPURE
+// // tutteLeAltre = auto.filter( el => {
+// //   const alimentazione = el.alimentazione
+
+// //   if ( alimentazione !== 'Benzina' && alimentazione !== 'Diesel') {
+// //     return true;
+// //   }
+// // })
+
+// console.log(autoBenzina);
+// console.log(autoDiesl);
+// console.log(tutteLeAltre);
